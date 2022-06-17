@@ -32,6 +32,8 @@ public class Prueba {
         }
         catch (DatosMalIngresadosException e1) {
             System.out.println("El parametro " + e1.getMessage() + " ingresado es incorrecto.");
+        } catch (ErrorDeUsuarioException e1) {
+            System.out.println(e1.getMessage());
         }
 
         System.out.println("\nSE LOGEAN ALGUNOS USUARIOS.");
