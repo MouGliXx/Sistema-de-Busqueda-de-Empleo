@@ -1,10 +1,10 @@
 package prueba;
 
-import excepciones.DatosMalIngresadosException;
-import excepciones.ErrorDeContrasenaException;
-import excepciones.ErrorDeUsuarioException;
-import excepciones.TicketYaCreadoException;
-import interfaces.ILocacion;
+import modelo.excepciones.DatosMalIngresadosException;
+import modelo.excepciones.ErrorDeContrasenaException;
+import modelo.excepciones.ErrorDeUsuarioException;
+import modelo.excepciones.TicketYaCreadoException;
+import modelo.interfaces.ILocacion;
 import modelo.tickets.Formulario_de_Busqueda;
 import modelo.tickets.locaciones.LocacionFactory;
 import modelo.usuarios.*;

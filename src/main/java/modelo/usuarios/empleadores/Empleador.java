@@ -1,6 +1,6 @@
 package modelo.usuarios.empleadores;
 
-import excepciones.DatosMalIngresadosException;
+import modelo.excepciones.DatosMalIngresadosException;
 import modelo.Sistema;
 import modelo.tickets.Formulario_de_Busqueda;
 import modelo.tickets.Ticket_de_Busqueda_de_Empleado;

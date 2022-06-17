@@ -1,4 +1,4 @@
-package excepciones;
+package modelo.excepciones;
 
 /**
  * Se lanza cuando la contrasena es incorrecta al nombre de usuario ingresado.

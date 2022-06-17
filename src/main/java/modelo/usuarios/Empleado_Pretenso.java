@@ -1,7 +1,7 @@
 package modelo.usuarios;
 
-import excepciones.DatosMalIngresadosException;
-import excepciones.TicketYaCreadoException;
+import modelo.excepciones.DatosMalIngresadosException;
+import modelo.excepciones.TicketYaCreadoException;
 import modelo.Sistema;
 import modelo.tickets.Formulario_de_Busqueda;
 import modelo.tickets.Ticket_de_Busqueda_de_Empleo;

@@ -1,7 +1,7 @@
 package modelo.usuarios;
 
-import excepciones.DatosMalIngresadosException;
-import excepciones.ErrorDeUsuarioException;
+import modelo.excepciones.DatosMalIngresadosException;
+import modelo.excepciones.ErrorDeUsuarioException;
 import modelo.Sistema;
 import modelo.usuarios.empleadores.PersonaFisica;
 import modelo.usuarios.empleadores.PersonaJuridica;

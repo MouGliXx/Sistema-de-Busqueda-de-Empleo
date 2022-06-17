@@ -1,6 +1,6 @@
 package modelo.tickets;
 
-import interfaces.ILocacion;
+import modelo.interfaces.ILocacion;
 import modelo.constantes.Puntajes;
 import java.util.Calendar;
 import java.util.GregorianCalendar;

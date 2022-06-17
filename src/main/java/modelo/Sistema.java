@@ -1,7 +1,7 @@
 package modelo;
 
-import excepciones.ErrorDeContrasenaException;
-import excepciones.ErrorDeUsuarioException;
+import modelo.excepciones.ErrorDeContrasenaException;
+import modelo.excepciones.ErrorDeUsuarioException;
 import modelo.listas.Contrato;
 import modelo.tickets.Ticket;
 import modelo.tickets.Ticket_de_Busqueda_de_Empleado;

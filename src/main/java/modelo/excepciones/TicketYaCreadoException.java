@@ -1,4 +1,4 @@
-package excepciones;
+package modelo.excepciones;
 
 /**
  * Se lanza cuando el empleado pretenso ya posee un ticket activo o suspendido como atributo.

@@ -1,6 +1,6 @@
 package modelo.tickets.locaciones;
 
-import interfaces.ILocacion;
+import modelo.interfaces.ILocacion;
 
 public class LocacionFactory {
 
