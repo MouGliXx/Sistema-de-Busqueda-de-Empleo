@@ -4,8 +4,15 @@ import modelo.Sistema;
 import modelo.constantes.Puntajes;
 import modelo.tickets.Ticket_de_Busqueda_de_Empleado;
 import modelo.tickets.Ticket_de_Busqueda_de_Empleo;
+<<<<<<< Updated upstream
 
 public class Agencia extends Usuario {
+=======
+import java.util.ArrayList;
+
+public class Agencia extends Usuario {
+    private ArrayList <TicketSimplificado> bolsaDeTrabajo;
+>>>>>>> Stashed changes
 
     public Agencia(String nombreUsuario, String contrasena) {
         super(nombreUsuario, contrasena);

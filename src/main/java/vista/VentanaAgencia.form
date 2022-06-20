@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="vista.VentanaAgencia">
+  <grid id="27dc6" binding="panelPrincipal" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="800" height="500"/>
+    </constraints>
+    <properties>
+      <minimumSize width="800" height="500"/>
+      <preferredSize width="800" height="500"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="c6170" binding="panelMenu" layout-manager="GridLayoutManager" row-count="9" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="West"/>
+        <properties>
+          <background color="-12490271"/>
+          <minimumSize width="200" height="500"/>
+          <preferredSize width="200" height="500"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="f6445" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI" size="25" style="3"/>
+              <foreground color="-983056"/>
+              <text value="My Linkedn"/>
+            </properties>
+          </component>
+          <component id="88ddd" class="javax.swing.JButton" binding="botonPerfil">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="200" height="35"/>
+                <preferred-size width="200" height="35"/>
+                <maximum-size width="200" height="35"/>
+              </grid>
+            </constraints>
+            <properties>
+              <borderPainted value="false"/>
+              <focusable value="false"/>
+              <horizontalTextPosition value="11"/>
+              <text value="Perfil"/>
+            </properties>
+          </component>
+          <component id="d2ec2" class="javax.swing.JButton" binding="botonIngresarDatos">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="200" height="35"/>
+                <preferred-size width="200" height="35"/>
+                <maximum-size width="200" height="35"/>
+              </grid>
+            </constraints>
+            <properties>
+              <borderPainted value="false"/>
+              <focusable value="false"/>
+              <horizontalTextPosition value="11"/>
+              <text value="Ingresar datos"/>
+            </properties>
+          </component>
+          <component id="1eec" class="javax.swing.JButton" binding="botonVerDatos">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="200" height="35"/>
+                <preferred-size width="200" height="35"/>
+                <maximum-size width="200" height="35"/>
+              </grid>
+            </constraints>
+            <properties>
+              <borderPainted value="false"/>
+              <focusable value="false"/>
+              <horizontalTextPosition value="11"/>
+              <text value="Ver datos"/>
+            </properties>
+          </component>
+          <component id="34d3d" class="javax.swing.JButton" binding="botonComisiones">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="200" height="35"/>
+                <preferred-size width="200" height="35"/>
+                <maximum-size width="200" height="35"/>
+              </grid>
+            </constraints>
+            <properties>
+              <borderPainted value="false"/>
+              <focusable value="false"/>
+              <horizontalTextPosition value="11"/>
+              <text value="Comisiones"/>
+            </properties>
+          </component>
+          <component id="9e217" class="javax.swing.JButton" binding="botonDarDeBaja">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="200" height="35"/>
+                <preferred-size width="200" height="35"/>
+                <maximum-size width="200" height="35"/>
+              </grid>
+            </constraints>
+            <properties>
+              <borderPainted value="false"/>
+              <focusable value="false"/>
+              <horizontalTextPosition value="11"/>
+              <text value="Dar de baja"/>
+            </properties>
+          </component>
+          <vspacer id="4c04a">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="d79f9">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="e596f">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+      <tabbedpane id="a0d12" binding="panelVentanas">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <focusable value="false"/>
+          <minimumSize width="600" height="-1"/>
+          <preferredSize width="600" height="-1"/>
+        </properties>
+        <border type="none">
+          <font/>
+        </border>
+        <children>
+          <grid id="1b671" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <tabbedpane title="Perfil">
+                <tooltip value=""/>
+              </tabbedpane>
+            </constraints>
+            <properties>
+              <background color="-16746571"/>
+              <focusable value="false"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="8938f" binding="panelRondas" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints border-constraint="South"/>
+                <properties>
+                  <background color="-16746571"/>
+                  <preferredSize width="465" height="100"/>
+                </properties>
+                <border type="empty">
+                  <size top="10" left="10" bottom="10" right="10"/>
+                </border>
+                <children>
+                  <component id="1ecb4" class="javax.swing.JButton" binding="botonRondaDeEncuentrosLaborales">
+                    <constraints/>
+                    <properties>
+                      <focusable value="false"/>
+                      <horizontalTextPosition value="0"/>
+                      <maximumSize width="200" height="30"/>
+                      <minimumSize width="200" height="30"/>
+                      <preferredSize width="225" height="50"/>
+                      <text value="Ronda de Encuentros Laborales"/>
+                    </properties>
+                  </component>
+                  <hspacer id="90bc">
+                    <constraints/>
+                  </hspacer>
+                  <hspacer id="b7b25">
+                    <constraints/>
+                  </hspacer>
+                  <hspacer id="c4bf5">
+                    <constraints/>
+                  </hspacer>
+                  <hspacer id="e441a">
+                    <constraints/>
+                  </hspacer>
+                  <component id="f3242" class="javax.swing.JButton" binding="botonRondaDeContrataciones">
+                    <constraints/>
+                    <properties>
+                      <focusable value="false"/>
+                      <horizontalTextPosition value="0"/>
+                      <preferredSize width="225" height="50"/>
+                      <text value="Ronda de Contrataciones"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="bdb57" binding="panelTitulo" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <background color="-16746571"/>
+                </properties>
+                <border type="empty">
+                  <size top="50" left="50" bottom="50" right="50"/>
+                </border>
+                <children>
+                  <component id="bdc29" class="javax.swing.JLabel" binding="textoAgencia">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Segoe UI Semibold" size="40"/>
+                      <foreground color="-983056"/>
+                      <text value="Agencia"/>
+                    </properties>
+                  </component>
+                  <component id="c6d62" class="javax.swing.JLabel" binding="textoBienvenido">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Segoe UI Semibold" size="30"/>
+                      <foreground color="-983056"/>
+                      <text value="Bienvenido, ..."/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="394b2" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <tabbedpane title="Ingresar datos"/>
+            </constraints>
+            <properties>
+              <background color="-16746571"/>
+              <focusable value="false"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="76f18" binding="panelTiposDeTrabajo" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints border-constraint="West"/>
+                <properties>
+                  <background color="-16746571"/>
+                  <minimumSize width="200" height="-1"/>
+                  <preferredSize width="200" height="-1"/>
+                </properties>
+                <border type="empty">
+                  <size top="10" left="10" bottom="10" right="10"/>
+                </border>
+                <children>
+                  <component id="4c298" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <focusable value="false"/>
+                      <font name="Segoe UI Semibold" size="15"/>
+                      <foreground color="-983056"/>
+                      <text value="Tipos de Trabajo"/>
+                    </properties>
+                  </component>
+                  <component id="57b8c" class="javax.swing.JTextField" binding="textoTiposDeTrabajo">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="68d9c" class="javax.swing.JList" binding="listaTiposDeTrabajo">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <model/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="c0c6f" binding="panelTiposDePuestos" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints border-constraint="East"/>
+                <properties>
+                  <background color="-16746571"/>
+                  <minimumSize width="200" height="-1"/>
+                  <preferredSize width="200" height="-1"/>
+                </properties>
+                <border type="empty">
+                  <size top="10" left="10" bottom="10" right="10"/>
+                </border>
+                <children>
+                  <component id="b5a4e" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <focusable value="false"/>
+                      <font name="Segoe UI Semibold" size="15"/>
+                      <foreground color="-983056"/>
+                      <text value="Tipos de Puestos"/>
+                    </properties>
+                  </component>
+                  <component id="5a366" class="javax.swing.JTextField" binding="textoTiposDePuestos">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="f7c2e" class="javax.swing.JList" binding="listaTiposDePuestos">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <model/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="8594f" binding="panelTextoprincipal" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints border-constraint="North"/>
+                <properties>
+                  <background color="-16746571"/>
+                  <minimumSize width="600" height="50"/>
+                  <preferredSize width="600" height="50"/>
+                </properties>
+                <border type="empty">
+                  <size top="5" left="5" bottom="5" right="5"/>
+                </border>
+                <children>
+                  <component id="b02f1" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <focusable value="false"/>
+                      <font name="Segoe UI" size="20" style="1"/>
+                      <foreground color="-983056"/>
+                      <text value="Ingresa los datos que desee para confeccionar los tickets"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="ddb1d" binding="panelAgregarDatos" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints border-constraint="South"/>
+                <properties>
+                  <background color="-16746571"/>
+                  <minimumSize width="600" height="50"/>
+                  <preferredSize width="600" height="50"/>
+                </properties>
+                <border type="none">
+                  <size top="0" left="0" bottom="0" right="0"/>
+                </border>
+                <children>
+                  <component id="15dee" class="javax.swing.JButton" binding="botonAgregarDatos">
+                    <constraints/>
+                    <properties>
+                      <focusable value="false"/>
+                      <horizontalAlignment value="0"/>
+                      <horizontalTextPosition value="0"/>
+                      <minimumSize width="200" height="30"/>
+                      <preferredSize width="200" height="30"/>
+                      <text value="Agregar Datos"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="9fb5d" binding="panelRangoLaboral" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <background color="-16746571"/>
+                </properties>
+                <border type="empty">
+                  <size top="10" left="10" bottom="10" right="10"/>
+                </border>
+                <children>
+                  <component id="d6d6b" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <focusable value="false"/>
+                      <font name="Segoe UI Semibold" size="15"/>
+                      <foreground color="-983056"/>
+                      <text value="Rango Laboral"/>
+                    </properties>
+                  </component>
+                  <component id="a5cb0" class="javax.swing.JTextField" binding="textoRangoLaboral">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="62df4" class="javax.swing.JList" binding="listaRangoLaboral">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <model/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="d1727" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <tabbedpane title="Ver datos"/>
+            </constraints>
+            <properties>
+              <background color="-16746571"/>
+              <focusable value="false"/>
+            </properties>
+            <border type="empty">
+              <size top="10" left="10" bottom="10" right="10"/>
+            </border>
+            <children>
+              <grid id="8df4f" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="North"/>
+                <properties>
+                  <background color="-16746571"/>
+                  <minimumSize width="600" height="50"/>
+                  <preferredSize width="600" height="50"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="9ce4a" class="javax.swing.JLabel">
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <font name="Segoe UI" size="20" style="1"/>
+                      <foreground color="-983056"/>
+                      <horizontalAlignment value="0"/>
+                      <text value="Seleccione los datos almacenados que desee visualizar"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="f4c59" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <background color="-16746571"/>
+                </properties>
+                <border type="none">
+                  <size top="5" left="5" bottom="5" right="5"/>
+                </border>
+                <children>
+                  <component id="ce2d9" class="javax.swing.JComboBox" binding="boxDatosCargados">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <actionCommand value="boxDatosCargados"/>
+                      <maximumRowCount value="5"/>
+                      <model>
+                        <item value=""/>
+                        <item value="Empleadores"/>
+                        <item value="Solicitudes de los empleadores"/>
+                        <item value="Empleados Pretensos"/>
+                        <item value="Solicitud de cada empleado pretenso"/>
+                      </model>
+                    </properties>
+                  </component>
+                  <component id="71fd0" class="javax.swing.JList" binding="listaDatosCargados">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="21124" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <tabbedpane title="Comisiones"/>
+            </constraints>
+            <properties>
+              <background color="-16746571"/>
+              <focusable value="false"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="f0fe2" binding="panelTextoPrincipal" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints border-constraint="North"/>
+                <properties>
+                  <background color="-16746571"/>
+                  <minimumSize width="600" height="50"/>
+                  <preferredSize width="600" height="50"/>
+                </properties>
+                <border type="empty">
+                  <size top="5" left="5" bottom="5" right="5"/>
+                </border>
+                <children>
+                  <component id="74a08" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <focusable value="false"/>
+                      <font name="Segoe UI" size="20"/>
+                      <foreground color="-983056"/>
+                      <horizontalAlignment value="0"/>
+                      <horizontalTextPosition value="0"/>
+                      <text value="Comisiones a cobrar por cada usuario"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="953ca" binding="panelLista" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <background color="-16746571"/>
+                  <minimumSize width="600" height="-1"/>
+                  <preferredSize width="600" height="-1"/>
+                </properties>
+                <border type="empty">
+                  <size top="10" left="10" bottom="10" right="10"/>
+                </border>
+                <children>
+                  <component id="afa0c" class="javax.swing.JButton" binding="calcularComisionesButton" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <focusable value="false"/>
+                      <text value="Calcular Comisiones"/>
+                    </properties>
+                  </component>
+                  <component id="a7f99" class="javax.swing.JList" binding="listaComisiones">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+      <component id="a63ec" class="javax.swing.JList" default-binding="true">
+        <constraints border-constraint="South"/>
+        <properties>
+          <model/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

@@ -15,7 +15,11 @@ public class UsuarioFactory {
             else
                 throw new DatosMalIngresadosException("Tipo Usuario (ya existe un administrador)");
         else
+<<<<<<< Updated upstream
         if (tipo.equalsIgnoreCase("EMPLEADO PRETENSO"))
+=======
+        if (tipo.equalsIgnoreCase("Empleado Pretenso"))
+>>>>>>> Stashed changes
             Sistema.getInstance().registrarUsuario(new Empleado_Pretenso(nombreUsuario, contrasena));
         else
         if (tipo.equalsIgnoreCase("PERSONA FISICA"))

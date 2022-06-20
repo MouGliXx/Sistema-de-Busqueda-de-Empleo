@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="vista.VentanaLogin">
+  <grid id="27dc6" binding="panelPrincipal" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-12490271"/>
+      <enabled value="false"/>
+      <font name="Verdana" size="15"/>
+      <preferredSize width="500" height="400"/>
+    </properties>
+    <border type="etched">
+      <size top="10" left="10" bottom="10" right="10"/>
+    </border>
+    <children>
+      <grid id="62552" binding="panelCentral" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-12490271"/>
+        </properties>
+        <border type="empty">
+          <size top="10" left="10" bottom="10" right="10"/>
+        </border>
+        <children>
+          <grid id="ddd1f" binding="PanelDatos" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-12490271"/>
+            </properties>
+            <border type="empty">
+              <size top="10" left="10" bottom="10" right="10"/>
+            </border>
+            <children>
+              <component id="18967" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <font name="Segoe UI Semibold" size="17"/>
+                  <foreground color="-983056"/>
+                  <text value="Nombre de Usuario:"/>
+                </properties>
+              </component>
+              <component id="98ab9" class="javax.swing.JTextField" binding="textoNombreUsuario">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="5" use-parent-layout="false">
+                    <preferred-size width="150" height="30"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="d10d7" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <font name="Segoe UI Semibold" size="17"/>
+                  <foreground color="-983056"/>
+                  <text value="Contrasena:"/>
+                </properties>
+              </component>
+              <component id="a0724" class="javax.swing.JTextField" binding="textoContrasena">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="5" use-parent-layout="false">
+                    <preferred-size width="150" height="30"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="6eb23" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <font name="Segoe UI Semibold" size="25" style="1"/>
+                  <foreground color="-983056"/>
+                  <text value="Ingresa tus datos para continuar"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="82f9d" binding="panelInferior" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="10" left="10" bottom="10" right="10"/>
+        <constraints border-constraint="South"/>
+        <properties>
+          <background color="-12490271"/>
+        </properties>
+        <border type="empty">
+          <size top="10" left="10" bottom="10" right="10"/>
+        </border>
+        <children>
+          <grid id="37306" binding="panelRegistrarse" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <preferredSize width="100" height="30"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="a3730" class="javax.swing.JButton" binding="botonRegistrarse">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <focusable value="false"/>
+                  <font size="15"/>
+                  <horizontalTextPosition value="11"/>
+                  <text value="Registrarse"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="da192" binding="panelLogin" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <preferredSize width="100" height="30"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="cdeb2" class="javax.swing.JButton" binding="botonLogin">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <focusable value="false"/>
+                  <font size="15"/>
+                  <horizontalTextPosition value="11"/>
+                  <text value="Login"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
